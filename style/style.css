@@ -1,0 +1,62 @@
+.belepablak {
+  width: 25%;
+  min-height: 250px;
+  background: #cccccc;
+  border-radius: 10px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.belepmezo,
+.belepgomb {
+  margin-top: 35px;
+  padding: 8px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.belepmezo:hover {
+  transform: translateY(-1px);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
+}
+
+.belepgomb:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
+  color: rgb(42, 143, 42);
+}
+
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.belepveablak {
+  margin: 0 auto;
+  align-items: center;
+  width: 20%;
+}
+.belepveablak form #buttonigazito {
+  text-align: center;
+}
+.belepveablak form .f_input {
+  display: grid;
+  grid-template-columns: 50%;
+}
+
+#gomb {
+  padding: 5px;
+}
+#gomb:hover {
+  color: blue;
+  cursor: pointer;
+}
+#gomb:active {
+  text-shadow: rgba(0, 0, 0, 0.5) 0 4px 12px;
+}/*# sourceMappingURL=style.css.map */
